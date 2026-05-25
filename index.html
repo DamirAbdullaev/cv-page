@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CV page</title>
+</head>
+
+<body class="container">
+    <header class="header">
+        <img src="assets/krutoi-kot-3-2.png" alt="my photo" class="avatar">
+        <h1 class="header__title">John Doe | CV</h1>
+        <h2 class="header__subtitle">Frontend Developer</h2>
+    </header>
+
+
+    <main>
+        <section class="skills">
+            <h3>Skills</h3>
+            <details>
+                <summary>Skills list</summary>
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ol>
+            </details>
+        </section>
+
+        <article>
+            <h4>Short article about my experience</h4>
+            <p>This is a brief overview of my professional background and achievements.</p>
+        </article>
+
+        <section class="gallary">
+            <h3>Gallery</h3>
+            <div>
+                <img src="assets/images.jpg" alt="Gallery image 1">
+                <img src="assets/hoj.jpg" alt="Gallery image 2">
+                <img src="assets/multfilm_lyagushka_32117.jpg" alt="Gallery image 3">
+            </div>
+        </section>
+
+        <hr class="separator">
+
+        <section class="video">
+            <iframe width="1280" height="800" src="https://www.youtube.com/embed/MBe1h80ghKA"
+                title="Что такое HTML за 7 минут" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+
+        <section class="hobbies">
+            <h4>My Hobbies</h4>
+
+            <details>
+                <summary>Hobbies</summary>
+                <ul>
+                    <li>Reading</li>
+                    <li>Traveling</li>
+                    <li>Photography</li>
+                </ul>
+            </details>
+        </section>
+
+        <hr class="separator">
+
+        <section class="ed">
+            <table class="ed_table">
+                <thead>
+                    <tr>
+                        <th>Educational Background</th>
+                        <th>Institution</th>
+                        <th>Year of Graduation</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Bachelor's Degree in Computer Science</td>
+                        <td>University of Technology</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Master's Degree in Software Engineering</td>
+                        <td>Tech University</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="quote">
+            <blockquote>
+                "The only way to do great work is to love what you do." - Steve Jobs
+            </blockquote>
+        </section>
+
+        <section class="interaction">
+            <form action="https://yandex.uz/" method="get" target="_blank" class="form">
+                <fieldset>
+                    <legend>Required fields</legend>
+                    <div class="">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" placeholder="Your name" required>
+                    </div>
+
+                    <div class="">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                    </div>
+
+                    <div class="">
+                        <label for="tel">Number:</label>
+                        <input type="tel" id="tel" name="tel" placeholder="123-456-7890" required>
+                    </div>
+                </fieldset>
+
+                <textarea cols="45" rows="4" placeholder="Your message here..."></textarea>
+
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <address>
+            <a href="mailto:it@gmail.com">Contact me via email</a>
+            <br><br>
+            <a href="tel:+98902387304">Call me</a>
+        </address>
+    </footer>
+</body>
+
+</html>
